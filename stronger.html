@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Melodisc | Amorphous</title>
+		<meta charset="utf-8">
+		<link href="styles/style.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="pictures/fav-icon2.png" rel="shortcut icon">
+	</head>
+	<body>
+		<a href="index.html">
+			<h1>Melodisc</h1>
+		</a>
+		<header>PRODUCT DETALS</header>
+		<main>
+			<article>
+				<img src="pictures/Stronger.jpg" alt="Stronger album cover">
+				<div class="description">
+					<h2>Stronger</h2>
+					<p>album by</p>					
+					<h3>Kelly Clarkson</h3>
+					<p>released</p>
+					<time datetime="2011-10-21">October 21, 2011</time>
+				</div>
+				<div class="purchase">
+					<p><button>Add to Cart</button></p>
+					<p>$10.59</p>
+				</div>
+				<div id="tracklist">
+					<h3>Tracklist:</h3>
+					<ol>
+						<li>Mr. Know It All</li>
+						<li>What Doesn't Kill You (Stronger)</li>
+						<li>Dark Side</li>
+						<li>Honestly</li>
+						<li>You Love Me</li>
+						<li>Einstein</li>
+						<li>Standing in Front Of You</li>
+						<li>I Forgive You</li>
+						<li>Hello</li>
+						<li>The War Is Over</li>
+						<li>Let Me Down</li>
+						<li>You Can't Win</li>
+						<li>Breaking Your Own Heart</li>
+					</ol>
+				</div>
+				<div id="lyrics">
+					<h3>Lyrics:</h3>
+					<pre>
+Click on any song title
+					</pre>
+				</div>
+				<div class="row">
+				  <div class="col-75">
+					<div class="container">
+					  <form name="purchase-form">
+					  
+						<div class="row">
+						  <div class="col-50">
+							<h3>Billing Address</h3>
+							<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+							<input type="text" id="fname" name="full name" placeholder="John M. Doe" required="true">
+							<label for="email"><i class="fa fa-envelope"></i> Email</label>
+							<input type="text" id="email" name="email" placeholder="john@example.com" required="true">
+							<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+							<input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required="true">
+							<label for="city"><i class="fa fa-institution"></i> City</label>
+							<input type="text" id="city" name="city" placeholder="New York" required="true">
+
+							<div class="row">
+							  <div class="col-50">
+								<label for="state">State</label>
+								<input type="text" id="state" name="state" placeholder="NY" required="true">
+							  </div>
+							  <div class="col-50">
+								<label for="zip">Zip</label>
+								<input type="text" id="zip" name="zip" placeholder="10001" required="true">
+							  </div>
+							</div>
+						  </div>
+
+						  <div class="col-50">
+							<h3>Payment</h3>
+							<label>Accepted Cards</label>
+							<div class="icon-container">
+							  <i class="fa fa-cc-visa" style="color:navy;"></i>
+							  <i class="fa fa-cc-amex" style="color:blue;"></i>
+							  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+							  <i class="fa fa-cc-discover" style="color:orange;"></i>
+							</div>
+							<label for="cname">Name on Card</label>
+							<input type="text" id="cname" name="cardname" placeholder="John More Doe" required="true">
+							<label for="ccnum">Credit card number</label>
+							<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required="true">
+							<label for="expmonth">Exp Month</label>
+							<input type="text" id="expmonth" name="expmonth" placeholder="September" required="true">
+							<div class="row">
+							  <div class="col-50">
+								<label for="expyear">Exp Year</label>
+								<input type="text" id="expyear" name="expyear" placeholder="2021" required="true">
+							  </div>
+							  <div class="col-50">
+								<label for="cvv">CVV</label>
+								<input type="text" id="cvv" name="cvv" placeholder="352" required="true">
+							  </div>
+							</div>
+						  </div>
+						  
+						</div>
+						<label>
+						  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+						</label>
+						<input type="submit" value="Purchase" class="btn"></input>
+					  </form>
+					</div>
+				  </div>
+				 
+				</div>
+				<h3 class="reviews-header">Reviews:</h3>
+				<div id="reviews">
+					<div class="review">
+						<h3>Melodisc ✔</h3>
+						<p>Hello, Molly! Thank you for shopping through our website. "Don't You Wanna Stay" is a track off the deluxe edition of this album which was sold out earlier this year.</h3>
+					</div>
+					<div class="review">
+						<h3>Molly G.</h3>
+						<p>Why doesn't the album feature the song "Don't you wanna stay"? Aside from that, the cd is in great condition and has all the other songs.</p>
+					</div>		
+					<div class="review">
+						<h3>Melodisc ✔</h3>
+						<p>Hello, J. J. Butchman! Send us your order details over at melodisc@gmail and we will take it from there.</h3>
+					</div>	
+					<div class="review">
+						<h3>Samantha</h3>
+						<p>Mine was fine. Maybe you can return it and get a fixed one?</p>
+					</div>
+					<div class="review">
+						<h3>J. J. Butchman</h3>
+						<p>The CD won't play...</p>
+					</div>					
+				</div>
+				<h3 class="reviews-header">Tell us yours:</h3>
+				<form id="review-form" name="review-form">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="John M. Doe" required="true">
+					<label for="review">Review</label>
+					<input type="text" id="review" name="review" placeholder="What do you think about this product?" required="true">
+				</form>
+				<button class="send-button">Send</button>
+			</article>
+		</main>
+		<script src="scripts/main.js">  
+		</script>  
+	</body>
+	
+</html>
